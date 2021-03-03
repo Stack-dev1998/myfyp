@@ -1,0 +1,90 @@
+.table {
+  width: 100%;
+  border-spacing: 0;
+  border: 5px solid black;
+}
+.table tr :last-child td {
+  border-bottom: 0;
+}
+.table th td :last-child {
+  margin: 0;
+  padding: 1rem;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.mainDIV {
+  position: relative;
+
+  width: 100%;
+  min-width: 315px;
+}
+.leftDIV {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: auto;
+  width: 80px;
+}
+.middleDIV {
+  height: auto;
+  width: 72%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+  text-align: center;
+}
+.rightDIV {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: auto;
+  width: 70px;
+}
+.my_table {
+  width: 100%;
+  overflow-x: scroll;
+  flex-wrap: nowrap;
+}
+
+@media screen and (min-width: 530px) and (max-width: 767px) {
+  .middleDIV {
+    height: auto;
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .my_table {
+    width: 100%;
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+  }
+}
+
+@media screen and (min-width: 390px) and (max-width: 670px) {
+  .my_table {
+    width: 100%;
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+  }
+}
+@media screen and (max-width: 389px) {
+  .middleDIV {
+    height: auto;
+    width: 180px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .search_form {
+    width: "100px";
+  }
+  .my_table {
+    width: 100%;
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+  }
+}

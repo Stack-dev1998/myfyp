@@ -1,0 +1,26 @@
+.container {
+  max-width: 100%;
+}
+.my_table {
+  background: white;
+}
+.manager_header {
+  height: "70px";
+  background: "white";
+  font-size: "100px";
+  line-height: "70px";
+  padding-left: "20px";
+  font-family: "Berlin Sans FB";
+  margin-bottom: "10px";
+}
+@media screen and (max-width: 932px) {
+  .container {
+    width: 100%;
+
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+  }
+  .my_table {
+    width: 767px;
+  }
+}

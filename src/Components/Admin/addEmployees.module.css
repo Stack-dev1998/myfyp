@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.top_menu {
+  height: 60px;
+  text-align: center;
+  font-weight: 500;
+  font-family: "Algerian";
+  letter-spacing: 5px;
+}
+.my_form {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-shadow: 10px 10px 15px -2px rgba(189, 189, 189, 1);
+  -moz-box-shadow: 10px 10px 15px -2px rgba(189, 189, 189, 1);
+  box-shadow: 10px 10px 15px -2px rgba(189, 189, 189, 1);
+}
+.input_fields {
+  outline: 0;
+  border-width: 0 0 1px;
+  border-color: black;
+  width: 100%;
+}
+
+.signup_component {
+  background: #f1f5f7;
+  height: 100vh;
+}
+.signup_btn {
+  background-color: black;
+  border: none;
+}
+
+@media (min-width: 992px) {
+  .signup_component {
+    background: #f1f5f7;
+    height: 100vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .signup_component {
+    background: white;
+    height: 100vh;
+  }
+  .my_form {
+    width: 100%;
+    border: none;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: none;
+    overflow-x: hidden;
+    -webkit-box-shadow: 10px 10px 15px -2px rgba(189, 189, 189, 1);
+    -moz-box-shadow: 10px 10px 15px -2px rgba(189, 189, 189, 1);
+    box-shadow: 10px 10px 15px -2px rgba(189, 189, 189, 1);
+  }
+}

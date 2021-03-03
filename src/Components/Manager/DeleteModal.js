@@ -1,0 +1,43 @@
+import React from "react";
+import { Modal, Button } from "react-bootstrap";
+export default function DeleteModal(props) {
+    return (
+        <div>
+            <Modal
+                {...props}
+                size="md"
+                aria-labelledby="contained-modal-title-vcenter"
+                centered
+            >
+                <Modal.Header closeButton></Modal.Header>
+                <Modal.Body>
+                    <h4 className=""> Are you sure to delete {props.data.original.name} ?</h4>
+                    <div style={{ float: "right" }}>
+                        <Button
+                            className="btn btn-sm btn-success"
+                            style={{ width: "50px", marginRight: "10px" }}
+                            variant="success"
+                            onClick={() => {
+                                props.onHide()
+                            }}
+                        >
+                            No
+            </Button>
+
+                        <Button
+                            className="btn btn-sm btn-danger"
+                            style={{ width: "50px" }}
+                            variant="danger"
+                            onClick={() => {
+                                props.delete_handler(props.data.original._id, props.data.index);
+                                props.onHide()
+                            }}
+                        >
+                            Yes
+            </Button>
+                    </div>
+                </Modal.Body>
+            </Modal>
+        </div>
+    );
+}

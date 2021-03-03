@@ -1,0 +1,34 @@
+.redColor {
+  color: red;
+}
+.greenColor {
+  color: green;
+}
+.whiteColor {
+  color: white;
+}
+.brand {
+  font-size: 2.2rem;
+}
+
+.small_screen_login {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .brand {
+    display: none;
+  }
+}
+@media screen and (min-width: 341px) and (max-width: 767px) {
+  .large_screen_login {
+    display: none;
+  }
+  .small_screen_login {
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 340px) {
+  .brand {
+    font-size: 1.7rem;
+  }
+}

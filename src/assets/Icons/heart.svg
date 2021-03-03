@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/16px/heart</title>
+    <g id="icon/16px/heart" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M9.20113338,3.01165058 L8,4.23211161 L6.79886662,3.01165058 C5.47231135,1.66278314 3.32147173,1.66278314 1.99491645,3.01165058 C0.668361182,4.359918 0.668361182,6.54702735 1.99491645,7.89589479 L8,14 L14.0050835,7.89589479 C15.3316388,6.54702735 15.3316388,4.359918 14.0050835,3.01165058 C12.6791116,1.66278314 10.5276887,1.66278314 9.20113338,3.01165058 Z" id="icon-/-heart" fill="#1E1E1E"></path>
+    </g>
+</svg>

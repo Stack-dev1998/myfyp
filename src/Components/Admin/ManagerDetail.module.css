@@ -1,0 +1,38 @@
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+.buttonCenter {
+  margin-left: 25px;
+}
+.verticalLine {
+  border-right: 1px solid white;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.pagination {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.update_button {
+  width: "120px";
+}
+.btn {
+  width: "120px";
+}
+
+.manager_header {
+  height: "70px";
+  background: "white";
+  font-size: "100px";
+  line-height: "70px";
+  padding-left: "20px";
+  font-family: "Berlin Sans FB";
+  margin-bottom: "10px";
+}
+@media screen and (max-width: 360px) {
+  .manager_header {
+    font-size: 10px;
+  }
+}

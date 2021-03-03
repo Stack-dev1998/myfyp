@@ -1,0 +1,62 @@
+.Header {
+  height: 70px;
+}
+.brand {
+  margin-top: 5px;
+}
+.pull_right {
+  float: right;
+}
+.pull_left {
+  float: left;
+}
+
+.circleWithGmail {
+  display: inline-flex;
+  align-items: center;
+  padding-left: 10px;
+}
+.emailicon {
+  margin-left: 10px;
+  margin-top: 8px;
+  color: white;
+}
+.redCircle {
+  height: 35px;
+  width: 35px;
+  margin-top: 20px;
+  background-color: rgb(194, 7, 7);
+  border-radius: 50%;
+}
+.gmail {
+  margin-top: 20px;
+  margin-left: 5px;
+}
+.marginleft {
+  margin-left: 20px;
+}
+.greenColor {
+  color: green;
+}
+.redColor {
+  color: rgb(194, 7, 7);
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .brand {
+    margin-top: 10px;
+    font-size: 2rem;
+  }
+  .pull_right {
+    float: right;
+  }
+  .circleWithGmail {
+    display: inline-flex;
+    align-items: center;
+    padding-left: 10px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .Header {
+    display: none;
+  }
+}

@@ -1,0 +1,300 @@
+.main_section_hieght {
+  height: 70vw;
+  background: #efeff0;
+}
+
+.mainSection {
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.inside_main_section {
+  position: absolute;
+  height: 50vw;
+  background: rgba(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  color: white;
+  bottom: 0;
+  top: 0;
+}
+.main_img {
+  position: relative;
+  background-repeat: no-repeat;
+  height: 50vw;
+  background-size: cover;
+  width: 100%;
+  background-position: center top;
+}
+
+.top_headings {
+  margin-top: 100px;
+}
+.firstHeading {
+  font-size: 1.9rem;
+  font-family: Tahoma, Geneva, sans-serif;
+  color: white;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+}
+.secondHeading {
+  font-size: 2.2rem;
+  line-height: 5px;
+  font-family: Tahoma, Geneva, sans-serif;
+  color: red;
+  word-spacing: 5px;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+.paragraph {
+  font-size: 1rem;
+  padding-top: 20px;
+  color: white;
+  text-align: justify;
+}
+
+.card_icons {
+  font-size: 30px;
+  padding-bottom: 5px;
+}
+
+.card_setting {
+  margin-top: -80px;
+}
+
+.img_height {
+  height: 310px;
+  border-radius: 5px;
+}
+.pak_charity_heading {
+  margin-top: 20px;
+}
+.danger_color {
+  color: red;
+}
+.line {
+  border-bottom: 1px solid darkgray;
+  width: 40%;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .main_section_hieght {
+    height: 75vw;
+  }
+  .top_headings {
+    margin-top: 90px;
+  }
+  .img_height {
+    height: 260px;
+    border-radius: 5px;
+  }
+  .card_menu {
+    -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+      0 10px 10px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+      0 10px 10px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    height: 260px;
+  }
+  .pak_charity_heading {
+    font-size: 2.1rem;
+    font-weight: 700;
+    margin-top: 20px;
+  }
+  .danger_text {
+    font-size: 2rem;
+    font-weight: 750;
+  }
+  .help_heading {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .poor_person_paragraph {
+    font-size: 1.8rem;
+  }
+  .line {
+    border-bottom: 1px solid darkgray;
+    width: 40%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .main_section_hieght {
+    height: 75vw;
+  }
+  .top_headings {
+    margin-top: 70px;
+  }
+
+  .img_height {
+    height: 250px;
+    width: 100%;
+    padding: 0px;
+    border-radius: 5px;
+  }
+  .card_menu {
+    padding: 20px 5px 10px;
+    -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+      0 10px 10px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+      0 10px 10px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+  .pak_charity_heading {
+    font-size: 2.1rem;
+    font-weight: 700;
+    margin-top: 20px;
+  }
+  .help_heading {
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
+  .poor_person_paragraph {
+    font-size: 1.5rem;
+  }
+  .line {
+    border-bottom: 1px solid darkgray;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .main_section_hieght {
+    height: none;
+    background: none;
+  }
+  .main_section_hieght {
+    position: static;
+    height: auto;
+  }
+  .margin_top {
+    margin-top: 20px;
+  }
+  .top_headings {
+    margin-top: 20px;
+  }
+
+  .card_setting {
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+  .card_menu {
+    display: block;
+    clear: both;
+    padding: 20px 5px 10px;
+    -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+      0 10px 10px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+      0 10px 10px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+  .img_height {
+    height: 250px;
+    border-radius: 5px;
+  }
+  .main_img {
+    height: 230px;
+  }
+  .inside_main_section {
+    position: absolute;
+    height: 230px;
+    background: rgba(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    color: white;
+    bottom: 0;
+    top: 0;
+  }
+  .top_headings {
+    margin-top: 10px;
+  }
+  .firstHeading {
+    font-size: 1.2rem;
+    font-family: Tahoma, Geneva, sans-serif;
+    color: white;
+  }
+  .secondHeading {
+    font-size: 1.3rem;
+    font-family: Tahoma, Geneva, sans-serif;
+    color: red;
+    font-weight: bold;
+  }
+  .paragraph {
+    font-size: 1rem;
+    text-align: justify;
+    padding-top: 0px;
+    color: white;
+  }
+  .pak_charity_heading {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 10px;
+  }
+  .danger_color {
+    color: red;
+  }
+  .danger_text {
+    font-size: 1.4rem;
+    font-weight: 750;
+  }
+  .line {
+    border-bottom: 1px solid darkgray;
+    width: 70%;
+  }
+  .help_heading {
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
+  .poor_person_paragraph {
+    font-size: 1.2rem;
+    text-align: justify;
+  }
+  .mid_rabon {
+    max-width: 100%;
+  }
+
+  .donors h3 {
+    font-size: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 500px) {
+  .firstHeading {
+    font-size: 1.5rem;
+    font-family: Tahoma, Geneva, sans-serif;
+    color: white;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+  }
+  .secondHeading {
+    font-size: 2rem;
+    line-height: 5px;
+    font-family: Tahoma, Geneva, sans-serif;
+    color: red;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+    font-weight: bold;
+  }
+}
+@media screen and (max-width: 500px) {
+  .firstHeading {
+    font-size: 1.2rem;
+    font-family: Tahoma, Geneva, sans-serif;
+    color: white;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+  }
+  .secondHeading {
+    font-size: 1.3rem;
+    line-height: 5px;
+    font-family: Tahoma, Geneva, sans-serif;
+    color: red;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+    font-weight: bold;
+  }
+  .paragraph {
+    font-size: 0.9rem;
+    padding-top: 0px;
+    color: white;
+    text-align: justify;
+  }
+}

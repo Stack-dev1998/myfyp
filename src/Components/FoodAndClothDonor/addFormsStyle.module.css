@@ -1,0 +1,31 @@
+.top_menu {
+  height: 60px;
+  text-align: center;
+  font-weight: 500;
+  font-family: "Algerian";
+  letter-spacing: 5px;
+}
+.image_div {
+  width: 30%;
+  float: left;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+.form_div {
+  width: 50%;
+  float: right;
+  padding: 20px;
+}
+
+@media screen and (max-width: 547px) {
+  .image_div {
+    display: none;
+  }
+  .form_div {
+    width: 100%;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+  }
+}

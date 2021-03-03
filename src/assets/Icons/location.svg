@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="18px" viewBox="0 0 14 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon / location</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/16px/location" transform="translate(-1.000000, 1.000000)" stroke="#1E1E1E" stroke-width="1.5">
+            <path d="M8,4 C6.8955,4 6,4.8955 6,6 C6,7.1045 6.8955,8 8,8 C9.1045,8 10,7.1045 10,6 C10,4.8955 9.1045,4 8,4 M2,6 C2,2.68625 4.68625,0 8,0 C11.31375,0 14,2.68625 14,6 C14,12 8,16 8,16 C8,16 2,12 2,6" id="icon-/-location"></path>
+        </g>
+    </g>
+</svg>
